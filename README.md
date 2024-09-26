@@ -1,4 +1,4 @@
-Dockerized Java Spring Boot Application
+Dockerized Java Spring Boot Application:
 This is a simple Java Spring Boot application containerized using Docker. The application demonstrates basic web service functionality and is designed to be easily run inside a Docker container.
 
 Prerequisites
