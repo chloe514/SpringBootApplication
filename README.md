@@ -25,7 +25,7 @@ Project Structure
 Building and Running the Application
 1. Clone the Repository
    Clone this repository to your local machine:
-git clone <repository-url>
+git clone https://github.com/chloe514/SpringBootApplication.git
 2. Build the Application JAR
    Navigate to the root of your project and run the following command to build the JAR file:
    ./mvnw clean package
@@ -48,11 +48,11 @@ git clone <repository-url>
     docker stop <container_id>
     Clean Up
     To remove the Docker container after stopping it:
-6. docker rm <container_id>
+   docker rm <container_id>
    To remove the Docker image:
    docker rmi docker-java-app
    Additional Notes
    You can modify the application and rebuild the Docker image by repeating steps 2 and 3.
    The .dockerignore file is used to exclude files that are not necessary for the Docker image (e.g., .idea/ and target/).
-7. 
+
 
